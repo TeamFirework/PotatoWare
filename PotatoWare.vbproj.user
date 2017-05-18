@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://bleonard252:2521004b%40ftp.drivehq.com/potato/vsinstall/|ftp://ltm_16313622:2521004b%40ftp.ultimatefreehost.in/b252.gq/htdocs/soft/potato/vsinstall/|C:\Users\Blake leonard\Documents\Visual Studio 2015\Projects\PotatoWare\PotatoWare\publish\|publish\|ftp://ltm_16313622:2521004b%40ftp.ultimatefreehost.in/b252.gq/soft/potato/vsinstall/</PublishUrlHistory>
+    <InstallUrlHistory>https://www.drivehq.com/file/df.aspx/publish/bleonard252/potato/vsinstall/|https://www.drivehq.com/file/df.aspx/publish/bleonard252/potato/|https://www.drivehq.com/file/df.aspx/publish/bleonard252/PUBLISHNAME/FILENAME/|http://b252.gq/soft/potato/vsinstall/|http://localhost:56001/publish/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <StartAction>Project</StartAction>
+    <StartArguments>--debug</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>
+    </StartArguments>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DebugSecurityZoneURL>http://b252.gq/</DebugSecurityZoneURL>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Desktop-mode Debug|AnyCPU'">
+    <StartArguments>--debug --launch desktop</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PotatoWare
+</name>
+</assembly>
+<members>
+<member name="T:PotatoWare.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_blue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_golden">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_greenhelpIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_greenhelpPng">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_purpleAnimated">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.apple_purpleAnimated1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.arrow_disabled_backundo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.arrow_disabled_fwd_redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.arrow_enabled_backundo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.arrow_enabled_fwd_redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.Boss_1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.maximise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.Mettaton_NEO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.neo">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.notepad_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.notepad_ribbon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.paint_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_baked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_bakedimg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_poisonous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_poisonousimg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_skul_lg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_skull">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_skull1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potato_splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.potatoimg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.TerrariaBoss">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.winlogo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.winlogo_colored">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.winsettings_black">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.winsettings_white">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.Resources.winstartback">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PotatoWare.My.Resources.StandardIcons">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.maximise">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.maximize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.maxrestore">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.Paste_6520">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PotatoWare.My.Resources.StandardIcons.Save_VS13_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.MaxHealthPts">
+ <summary>
+ Boss' maximum health.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.MaxDamagePts">
+ <summary>
+ Maximum damage dealable.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.MinDamagePts">
+ <summary>
+ Minumum damage dealable.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.Max_MagicPts">
+ <summary>
+ Maximum magic points at any given moment.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.MaxUseMagPts">
+ <summary>
+ Maximum magic usable at once.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.MinUseMagPts">
+ <summary>
+ Minimum magic usable at once.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.BossBeatReqd">
+ <summary>
+ Are you allowed to battle the boss if you haven't beaten other bosses?
+ If not, set ReqdBossBeat as a string collection for bosses to have beaten.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAIs.PoisonousPotato.BossAI.StartsFullHP">
+ <summary>
+ Does the boss start with full HP?
+ If not, set BossStartsHP to an integer value that it will start with.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.MaxHealthPts">
+ <summary>
+ Boss' maximum health.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.MaxDamagePts">
+ <summary>
+ Maximum damage dealable.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.MinDamagePts">
+ <summary>
+ Minumum damage dealable.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.Max_MagicPts">
+ <summary>
+ Maximum magic points at any given moment.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.MaxUseMagPts">
+ <summary>
+ Maximum magic usable at once.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.MinUseMagPts">
+ <summary>
+ Minimum magic usable at once.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.BossBeatReqd">
+ <summary>
+ Are you allowed to battle the boss if you haven't beaten other bosses?
+ If not, set ReqdBossBeat as a string collection for bosses to have beaten.
+ </summary>
+</member>
+<member name="F:PotatoWare.BossAI.StartsFullHP">
+ <summary>
+ Does the boss start with full HP?
+ If not, set BossStartsHP to an integer value that it will start with.
+ </summary>
+</member>
+<member name="M:PotatoWare.PotatoManagement.URLCheck">
+ <summary>
+ Checks submitted URLs.
+ </summary>
+</member>
+<member name="F:PotatoWare.PotatoManagement.args">
+ <summary>
+ Command-line arguments passed to the application.
+ </summary>
+</member>
+<member name="M:PotatoWare.PotatoManagement.ArgCheck">
+ <summary>
+ Checks submitted arguments.
+ </summary>
+</member>
+<member name="F:PotatoWare.PotatoLaunch.DataDirectory">
+ <summary>
+ Gets the directory where data is stored.
+ Value contains the final backslash.
+ </summary>
+</member>
+<member name="M:PotatoWare.PotatoLaunch.AppWhatIsToolmenuItem_Click(System.Object,System.EventArgs)">
+ <remarks>
+ Notes On Stuff Go Here!
+ 
+ </remarks>
+</member>
+<member name="T:PotatoWare.Glass_Full">
+ <summary>
+  Creates A Glass Interface.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PotatoWare.PotatoSkul.dealDamage(System.Int32,System.Int32)">
+ <summary>
+ Deals damage in a battle.
+ </summary>
+ <param name="Target">0 for Player, 1 for Opponent. Who to deal damage to.</param>
+ <param name="Amount">How much damage to deal.</param>
+</member>
+<member name="M:PotatoWare.PotatoSkul.damageCheck">
+ <summary>
+ Checks the damage dealt and changes the color of the bar accordingly.
+ </summary>
+</member>
+<member name="F:PotatoWare.LikeCows1.CowTag">
+ <summary>
+ Used to keep count of how many textbox values have been cycled.
+ </summary>
+</member>
+</members>
+</doc>

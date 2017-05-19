@@ -11,24 +11,19 @@
         '  properties dialog (under the "Project" menu).
 
         'Application title
-        If My.Application.Info.Title <> "" Then
-            ApplicationTitle.Text = My.Application.Info.Title
-        Else
-            'If the application title is missing, use the application name, without the extension
-            ApplicationTitle.Text = System.IO.Path.GetFileNameWithoutExtension(My.Application.Info.AssemblyName)
-        End If
+        ApplicationTitle.Text = "PotatoWare"
 
-        'Format the version information using the text set into the Version control at design time as the
-        '  formatting string.  This allows for effective localization if desired.
-        '  Build and revision information could be included by using the following code and changing the 
-        '  Version control's designtime text to "Version {0}.{1:00}.{2}.{3}" or something similar.  See
-        '  String.Format() in Help for more information.
-        '
-        '    Version.Text = System.String.Format(Version.Text, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build, My.Application.Info.Version.Revision)
+            'Format the version information using the text set into the Version control at design time as the
+            '  formatting string.  This allows for effective localization if desired.
+            '  Build and revision information could be included by using the following code and changing the 
+            '  Version control's designtime text to "Version {0}.{1:00}.{2}.{3}" or something similar.  See
+            '  String.Format() in Help for more information.
+            '
+            '    Version.Text = System.String.Format(Version.Text, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build, My.Application.Info.Version.Revision)
 
-        Version.Text = PotatoManagement.vers()
+            Version.Text = PotatoManagement.vers()
 
         'Copyright info
-        Copyright.Text = My.Application.Info.Copyright
+        Copyright.Text = "Created by Blake Leonard, Team Firework"
     End Sub
 End Class

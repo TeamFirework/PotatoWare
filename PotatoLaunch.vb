@@ -11,7 +11,11 @@ Public Class PotatoLaunch
         ChiveIconChanger()
         PotatoManagement.ArgCheck()
         PotatoManagement.URLCheck()
-        PotatoManagement.checkAppUpdates()
+        If My.Application.CommandLineArgs.Contains("--skip-update") Then
+            'Nothing
+        Else
+            PotatoManagement.checkAppUpdates()
+        End If
         ' ____________________________________________________________________________________
         If My.Application.CommandLineArgs.Contains("--debug") Then
             DebugOptionsToolStripMenuItem.Visible = True

@@ -76,3 +76,8 @@ Public Structure BossAI
     Shared StartsFullHP As Boolean
     Shared BossStartsHP As Integer
 End Structure 'Type: Boss AI
+Partial Class PotatoManagement
+    Public Sub RestartNEO()
+        neofight.Show()
+    End Sub
+End Class

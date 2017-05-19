@@ -125,7 +125,7 @@
             Threading.Thread.Sleep(3000)
             Dim menace = MessageBox.Show("PotatoUser... Don't give up! Stay determined!", "PWISE Mettaton NEO Event", MessageBoxButtons.RetryCancel, MessageBoxIcon.Question)
             If menace = DialogResult.Retry Then
-                Close()
+                'Close() now it works 
                 Show()
             Else
                 'Given up. Will restart PotatoWare.

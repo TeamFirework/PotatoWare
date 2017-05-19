@@ -125,8 +125,8 @@
             Threading.Thread.Sleep(3000)
             Dim menace = MessageBox.Show("PotatoUser... Don't give up! Stay determined!", "PWISE Mettaton NEO Event", MessageBoxButtons.RetryCancel, MessageBoxIcon.Question)
             If menace = DialogResult.Retry Then
-                'Close() now it works 
-                Show()
+                Close()
+                PotatoManagement.RestartNEO()
             Else
                 'Given up. Will restart PotatoWare.
                 PotatoLaunch.Show()
@@ -231,15 +231,13 @@
         doRetaliate()
         HPCalc()
     End Sub
-
-    'TODO:  - Link it to the debug options menu for testing!
-    '       - Add a boolean setting to note completion, and then in the next update it will unlock in the Boss Battles menu.
-    '
     'DONE:  - Added sayBattle() SUB with a sequence that adds letters one after the other and uses parameters to determine type.
     '       - Changed the event background service to launch it.
     '       - Add more efficient battle techniques and AI implementations of a sort.
     '       - Add notification for completion.
     '       - Add an enemy retaliation. The player should be able to manually avoid the attack.
     '       - Add ACT, ITEM, and a useless MERCY function.
+    '       - Add a boolean setting to note completion, and then in the next update it will unlock in the Boss Battles menu.
+    '       - Link it to the debug options menu for testing.
 
 End Class
